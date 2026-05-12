@@ -18,7 +18,14 @@ export function ShowcasePage({ title, children }: ShowcasePageProps) {
       <h1 className="sr-only">{title}</h1>
       <ActionBar
         title={
-          <span style={{ position: "relative", display: "inline-block", paddingLeft: 24, lineHeight: 1.2 }}>
+          <span
+            style={{
+              position: "relative",
+              display: "inline-block",
+              paddingLeft: 24,
+              lineHeight: 1.2,
+            }}
+          >
             <span
               aria-hidden
               style={{
