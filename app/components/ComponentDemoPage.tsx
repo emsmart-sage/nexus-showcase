@@ -1,9 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { ActionBar, GlassPaper, GreenWaveBackground } from "sage-nexus-ui";
-import { ArrowBackIosNew } from "@mui/icons-material";
+import ArrowBackIosNew from "@mui/icons-material/ArrowBackIosNew";
 
 interface ComponentDemoPageProps {
   title: string;
