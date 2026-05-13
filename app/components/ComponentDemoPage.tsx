@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { ActionBar, GlassPaper, GreenWaveBackground } from "sage-nexus-ui";
 import ArrowBackIosNew from "@mui/icons-material/ArrowBackIosNew";
@@ -11,10 +11,10 @@ interface ComponentDemoPageProps {
 }
 
 const ComponentDemoPage = ({ title, children }: ComponentDemoPageProps) => {
-  // const [mounted, setMounted] = useState(false);
   const [hoveredTitle, setHoveredTitle] = useState(false);
-  // useEffect(() => setMounted(true), []);
-  // if (!mounted) return null;
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  if (!mounted) return null;
 
   return (
     <GreenWaveBackground>
