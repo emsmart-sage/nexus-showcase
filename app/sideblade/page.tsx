@@ -18,8 +18,8 @@ const SidebladePage = () => {
 
   return (
     <ComponentDemoPage title={title}>
-      <H2 sx={{ mb: 2 }}>{title}</H2>
-      <Stack direction="row" sx={{ gap: 4 }}>
+      <H2>{title}</H2>
+      <Stack direction="row" sx={{ gap: 4, mt: 4 }}>
         <SideBlade
           open={chatOpen}
           onToggle={() => setChatOpen((v) => !v)}

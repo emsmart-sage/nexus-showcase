@@ -1,3 +1,8 @@
+/* Reserve scrollbar gutter so layout doesn't shift between pages that do/don't scroll */
+body {
+  scrollbar-gutter: stable;
+}
+
 /* Visually hidden but accessible to screen readers */
 .sr-only {
   position: absolute;
