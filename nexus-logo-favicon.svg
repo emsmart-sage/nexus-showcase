@@ -1,0 +1,31 @@
+<svg width="20" height="20" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <g id="nexus-icon" transform="translate(60, 60)" fill="#05D505">
+    <circle cx="0" cy="0" r="12"/>
+    <g stroke="#05D505" stroke-width="4.5">
+      <g transform="rotate(0)">
+        <line x1="10" y1="0" x2="36" y2="0" />
+        <circle cx="44" cy="0" r="10"/>
+      </g>
+      <g transform="rotate(60)">
+        <line x1="10" y1="0" x2="36" y2="0" />
+        <circle cx="44" cy="0" r="10"/>
+      </g>
+      <g transform="rotate(120)">
+        <line x1="10" y1="0" x2="36" y2="0" />
+        <circle cx="44" cy="0" r="10"/>
+      </g>
+      <g transform="rotate(180)">
+        <line x1="10" y1="0" x2="36" y2="0" />
+        <circle cx="44" cy="0" r="10"/>
+      </g>
+      <g transform="rotate(240)">
+        <line x1="10" y1="0" x2="36" y2="0" />
+        <circle cx="44" cy="0" r="10"/>
+      </g>
+      <g transform="rotate(300)">
+        <line x1="10" y1="0" x2="36" y2="0" />
+        <circle cx="44" cy="0" r="10"/>
+      </g>
+    </g>
+  </g>
+</svg>
