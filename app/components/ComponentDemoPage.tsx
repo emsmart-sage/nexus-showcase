@@ -21,7 +21,7 @@ const ComponentDemoPage = ({ title, children }: ComponentDemoPageProps) => {
   return (
     <GreenWaveBackground>
       <h1 className="sr-only">{title}</h1>
-      <ActionBar title={"Nexus Showcase"} homeHref={"/"} />
+      <ActionBar title={"Nexus Showcase"} homeHref={"/nexus-showcase"} />
 
       <Stack
         direction="row"
