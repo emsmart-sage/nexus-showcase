@@ -27,9 +27,9 @@ const activeControlStyles = {
   boxSizing: "border-box",
   "&:hover": {
     backgroundColor: "transparent",
-    color: "inherit",
     boxShadow: "none",
     borderWidth: 2,
+    cursor: "default",
   },
   "&:focus-visible": {
     boxShadow: "0 0 0 3px rgba(3,169,244,0.16)",
