@@ -21,6 +21,22 @@ const MOCK_CHATS = [
   "Explain the new compliance rules",
 ];
 
+const activeControlStyles = {
+  fontWeight: 700,
+  borderWidth: 2,
+  boxSizing: "border-box",
+  "&:hover": {
+    backgroundColor: "transparent",
+    color: "inherit",
+    boxShadow: "none",
+    borderWidth: 2,
+  },
+  "&:focus-visible": {
+    boxShadow: "0 0 0 3px rgba(3,169,244,0.16)",
+    outline: "none",
+  },
+};
+
 export const ChatCollapsedContent = () => (
   <Stack sx={{ px: 0.5, pt: 0.5, gap: 1 }}>
     <Box>
@@ -145,7 +161,7 @@ export const CoeDashboardSideContent = ({
       onClick={() => onActiveChange("overview")}
       sx={[
         { justifyContent: "flex-start", px: 2 },
-        active === "overview" && { fontWeight: 700, borderWidth: 2 },
+        active === "overview" && activeControlStyles,
       ]}
     >
       Overview
@@ -157,7 +173,7 @@ export const CoeDashboardSideContent = ({
       onClick={() => onActiveChange("people")}
       sx={[
         { justifyContent: "flex-start", px: 2 },
-        active === "people" && { fontWeight: 700, borderWidth: 2 },
+        active === "people" && activeControlStyles,
       ]}
     >
       People
